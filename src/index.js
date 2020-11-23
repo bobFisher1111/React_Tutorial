@@ -16,10 +16,17 @@ const currentDate = new Date(); // built in function
 const year = currentDate.getFullYear();
 
 // html code inside javaScript & then javaScript inside html with using {}
+// CSS, className is same as class element in html
+// contentEditable allows you to edit the text in the browser, keep CamelCase in html its just lowercase, 4 styling
+// prefered way is to use className & style in css
 ReactDOM.render(
   <div>
-    <h1> Hello {fName + " " + lName}</h1>
-    <h1>Top Ten Game Series:</h1>
+    <h1 className="headingRed" contentEditable="true" spellCheck="false">
+      Hello {fName + " " + lName}
+    </h1>
+    <h1 className="headingBlue" contentEditable="false" spellCheck="false">
+      Top Ten Game Series:
+    </h1>
     <p>My opion of course....</p>
     <ul>
       <li>Final Fantasy</li>
