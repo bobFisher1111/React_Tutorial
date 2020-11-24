@@ -5,3 +5,12 @@
 .headingBlue {
   color: blue;
 }
+
+ul {
+  color: purple;
+}
+
+.favorite-video-games {
+  width: 400px;
+  height: 240px;
+}
