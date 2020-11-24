@@ -27,7 +27,6 @@ ReactDOM.render(
     <h1 className="headingBlue" contentEditable="false" spellCheck="false">
       Top Ten Game Series:
     </h1>
-    <p>My opion of course....</p>
     <ul>
       <li>Final Fantasy</li>
       <img
