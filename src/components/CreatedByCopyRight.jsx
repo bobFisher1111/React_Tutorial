@@ -16,4 +16,4 @@ function CreateCopyRight() {
   );
 }
 
-export default CreateCopyRight;
+export { CreateCopyRight };

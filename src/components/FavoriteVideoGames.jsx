@@ -68,4 +68,4 @@ function FavGames() {
     </div>
   );
 }
-export default FavGames;
+export { FavGames };

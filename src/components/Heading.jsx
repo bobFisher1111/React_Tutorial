@@ -14,4 +14,4 @@ function Heading() {
 }
 
 // Use esx epxort to allow index.js know about this Heading Component
-export default Heading;
+export { Heading };
